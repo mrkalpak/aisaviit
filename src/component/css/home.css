@@ -1,0 +1,26 @@
+.aisalogo{
+    height: 100%;
+    
+    
+}
+.bor{
+    border-right: 1px solid white;
+    
+}
+.row{
+    padding-top: 12%;
+    padding-bottom: 15%;
+}
+.text{
+    margin-top: 20%;
+    font-size: 55px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.grey-text{
+    
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: grey;
+}
+.subtitle{
+    font-size: 30px;
+}
