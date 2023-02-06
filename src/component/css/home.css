@@ -30,3 +30,12 @@
 .homeslider img{
     height: 80vh;
 }
+
+@media screen and (max-width: 480px) {
+    .aisalogo{
+        height: 70%;
+    }
+    .text{
+        margin-top: 0%;
+    }
+  }
