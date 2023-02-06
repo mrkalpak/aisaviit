@@ -3,7 +3,7 @@ import './css/home.css'
 const Contactus = () => {
     return (
       <div className='App'>
-        <h1 className="text-center">Home</h1>
+        <h1 className="text-center">Contact Us</h1>
       </div>
     )
   }

@@ -1,5 +1,8 @@
+import { isDOMComponent } from 'react-dom/test-utils';
 import './App.css';
 import Home from './component/Home';
+import Navbar from './component/Navbar'
+
 
 
 
@@ -7,7 +10,8 @@ import Home from './component/Home';
 const App = () => {
   return (
     <div className='App'>
-      <Home/>
+      <Navbar/>
+      
     </div>
   )
 }

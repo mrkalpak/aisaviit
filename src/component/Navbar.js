@@ -9,6 +9,7 @@ import Contactus from "./Contactus";
 import Event from "./Event";
 import Home from "./Home"
 import Team from "./Team";
+import "./css/navbar.css"
 
 
 
@@ -17,28 +18,28 @@ const Navbar = () => {
     return (
 
             <div>
-                <nav className="navbar navbar-expand-lg bg-light">
+                <nav className="navbar navbar-expand-lg bg-trasperent navbar-dark navbarText">
                     <div className="container-fluid">
-                        <a className="navbar-brand" as={Link} to={"/"}>Navbar</a>
+                        <a className="navbar-brand ms-5" as={Link} to={"/"}>AISA</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNav">
-                            <ul className="navbar-nav">
+                            <ul className="navbar-nav ms-auto">
                                 <li className="nav-item">
-                                    <a className="nav-link active" as={Link} to={"/"}>Home</a>
+                                    <Link className="nav-link active" to="/">Home</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" as={Link} to={"/event"}>Event</a>
+                               <Link to="/event" className="nav-link active" >Event </Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" as={Link} to={"/team"}>Team</a>
+                                    <Link className="nav-link active"  to="/team">Team</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" as={Link} to={"/contactus"}>Contact Us</a>
+                                    <Link className="nav-link active" to="/contactus">Contact Us</Link>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" as={Link} to={"/about"}>About Us</a>
+                                    <Link className="nav-link active"  to="/about">About Us</Link>
                                 </li>
 
                             </ul>
