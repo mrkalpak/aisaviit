@@ -1,41 +1,43 @@
-.aisalogo{
+.aisalogo {
     height: 100%;
-    
-    
 }
-.bor{
+.bor {
     border-right: 1px solid white;
-    
 }
-.row{
+.row {
     padding-top: 10%;
     padding-bottom: 15%;
 }
-.text{
+.text {
     margin-top: 20%;
     font-size: 55px;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.grey-text{
-    
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.grey-text {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: grey;
 }
-.subtitle{
+.subtitle {
     font-size: 30px;
 }
-.homeslider{
+.homeslider {
     width: 70%;
 }
-.homeslider img{
+.homeslider img {
     height: 80vh;
 }
 
 @media screen and (max-width: 480px) {
-    .aisalogo{
+    .aisalogo {
         height: 70%;
     }
-    .text{
+    .text {
         margin-top: 0%;
     }
-  }
+    .homeslider img {
+        height: 35vh;
+    }
+    .bor {
+        border-right: none;
+    }
+}
