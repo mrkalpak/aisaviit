@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* background: rgb(2, 0, 36);
+background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%); */
+    width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-right: 30px;
+    color: #fff;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+img {
+    /* margin-top: 50px; */
+    width: 60% !important;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+i {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+.row {
+    padding-bottom: 0%;
+    padding-top: 10%;
+}
+
+.row .card {
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: #3C677C;
+    box-shadow: 5px 5px 15px #241D9A;
+    transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+}
+
+.card i:hover {
+    color: antiquewhite;
+}
+
+.card i {
+
+    color: rgba(53, 33, 33, 0.8);
+}
+
+.card h5 {
+    color: antiquewhite;
+}
+
+.card i,
+.card h6,
+.card h5 {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+}
+
+
+
+
+.card:hover i,
+.card:hover h6,
+.card:hover h5 {
+    opacity: 1;
+    visibility: visible;
+    padding: 5px;
+}
+
+.card:hover i {
+    font-size: 28px;
+}
+
+
+.card:hover img {
+    padding-bottom: 5px;
+    margin-top: -2%;
+    width: 50% !important;
+}
+
+
+
+.card:hover {
+    background: #241D9A;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    /* min-height: 500px; */
+    box-shadow: 5px 5px 10px #8C87E8;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .card-col {
+        width: auto;
+    }
+
+}
+
+@media screen and (max-width:770px) and (min-width:575px) {
+
+
+    .row .card {
+        min-height: 520px;
+        width: 300px;
+
+    }
+
+}
