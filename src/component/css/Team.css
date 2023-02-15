@@ -28,6 +28,7 @@ h3 {
 }
 
 img {
+
     margin-top: 50px;
     width: 60% !important;
     transition: all 0.5s ease-in-out;
@@ -44,7 +45,7 @@ i {
 
 .row .card {
     height: 400px;
-    width: 300px;
+    width: 300px; 
     overflow: hidden;
     border-radius: 15px;
     background-color: #3C677C;
@@ -99,7 +100,6 @@ i {
     color: #fff;
     border-radius: 20px;
     border: none;
-    /* min-height: 500px; */
     box-shadow: 5px 5px 10px #8C87E8;
 }
 

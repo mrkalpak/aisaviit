@@ -1,6 +1,7 @@
 import React from "react";
 import "./css/Team.css";
-import lists from "./content";
+import lists from "../data/content";
+import img1 from "./images/img1.png"
 
 function Team(props) {
   // President js Obj
@@ -14,7 +15,7 @@ function Team(props) {
       Email: "jayendra.22010288@viit.ac.in",
       Insta_ID: "jayborse04",
       LinkedIn: "https://www.linkedin.com/in/jayendraborse04/",
-      image: "images/img1.webp",
+      image: img1,
     },
   ];
   return (
@@ -96,13 +97,13 @@ function Team(props) {
               {lists.map((list, i) => (
                 //  cards
                 <div
-                  className="col-lg-4 col-md-6 col-sm-12 card-col card-deck mx-auto "
+                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
                   key={i}
                 >
                   {" "}
                   <div className="card  mt-4">
                     {" "}
-                    <div className="card-body">
+                    <div className="card-body me-auto ms-auto">
                       {" "}
                       <img
                         src={list.image}
