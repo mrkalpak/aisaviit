@@ -25,7 +25,7 @@ function Team(props) {
         {" "}
         <div className="container text-center">
           {" "}
-          {/* row for title of Our Team */}
+          {/* row for title */}
           <div className="row  ">
             {" "}
             <div className="col ">
