@@ -1,3 +1,5 @@
+import img1 from "../media/img/team/img1.png"
+
 // JS Object for team members
 const lists = [
   {
@@ -9,7 +11,7 @@ const lists = [
     Division: "B",
     Insta_ID: "soujanisahil",
     LinkedIn: "https://www.linkedin.com/in/soujanisahil",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Secretary",
@@ -20,7 +22,7 @@ const lists = [
     Division: "A",
     Insta_ID: "vedant",
     LinkedIn: "https://in.linkedin.com/in/pranav-bagade",
-    image: "",
+    image: img1,
   },
   {
     Heads: "Treasurer",
@@ -30,7 +32,7 @@ const lists = [
     Year: "TY",
     Division: "A",
     Insta_ID: "nayanchandak ",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Human Resource Manager",
@@ -41,7 +43,7 @@ const lists = [
     Division: "B",
     Insta_ID: "__rahul_choubey",
     LinkedIn: "https://www.linkedin.com/in/choubeyrahul",
-    image: "",
+    image: img1,
   },
   {
     Heads: "Publicity",
@@ -52,7 +54,7 @@ const lists = [
     Division: "A",
     Insta_ID: "shrutijadhav.23 ",
     LinkedIn: "https://www.linkedin.com/in/shruti-jadhav-744650208/",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Event Management",
@@ -62,7 +64,7 @@ const lists = [
     Year: "TY",
     Division: "A",
     Insta_ID: "atharva2436",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Techinal Activity Incharge",
@@ -73,7 +75,7 @@ const lists = [
     Division: "B",
     Insta_ID: "neemeesh_khanzode",
     LinkedIn: "https://www.linkedin.com/in/neemeesh-khanzode/",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Video Creator",
@@ -84,7 +86,7 @@ const lists = [
     Division: "B",
     Insta_ID: "shardul.a.k_2002",
     LinkedIn: "https://www.linkedin.com/in/shardulkhandebharad/",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Content",
@@ -95,7 +97,7 @@ const lists = [
     Division: "B",
     Insta_ID: "_aditi_nikam_",
     LinkedIn: "www.linkedin.com/in/aditinikam",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Documentation & Magazine",
@@ -106,7 +108,7 @@ const lists = [
     Division: "B",
     Insta_ID: "adnan_b07_",
     LinkedIn: "https://www.linkedin.com/in/adnan-burhanpurwala-aa2404206/",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Design",
@@ -117,7 +119,7 @@ const lists = [
     Division: "B",
     Insta_ID: "_shreya_1402",
     LinkedIn: "https://www.linkedin.com/in/shreya-patil-79b541219",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Youtube",
@@ -128,7 +130,7 @@ const lists = [
     Division: "A",
     Insta_ID: "ruchika_taware",
     LinkedIn: "https://www.linkedin.com/in/ruchika-taware-76463820a/",
-    image: "images/img1.webp",
+    image: img1,
   },
   {
     Heads: "Photography",
@@ -139,7 +141,7 @@ const lists = [
     Division: "B",
     Insta_ID: "_prasadawhale",
     LinkedIn: "https://www.linkedin.com/in/prasadawhale",
-    image: "images/img1.webp",
+    image: img1,
   },
 ];
 // exporting lists
