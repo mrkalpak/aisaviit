@@ -16,9 +16,12 @@ const Event = () => {
               <h5 className="card-title title">
                 <h1>{element.title}</h1>
               </h5>
-              <p className="card-text description">
-                {element.description} <a href={element.href}>learn more...</a>
-              </p>
+           <p className="card-text description">{element.description} </p>
+              <a href={element.href}>
+                <button type="button" class="btn btn-primary btn-sm btn-style">
+                  Explore More
+                </button>
+              </a>
             </div>
           </div>
         </div>
