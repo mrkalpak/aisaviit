@@ -1,21 +1,21 @@
 .aisalogo {
-    height: 100%;
+    height: 70%;
+    width: 80%;
+}
+.container {
+    height: 80vh;
 }
 .bor {
-    border-right: 1px solid white;
-}
-.row-1 {
-    padding-top: 10%;
-    padding-bottom: 15%;
+    border-right: 1px solid black;
 }
 .text {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     font-size: 55px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 .grey-text {
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-    color: grey;
+    color: #1585a8;
 }
 .subtitle {
     font-size: 30px;
@@ -26,10 +26,16 @@
 .homeslider img {
     height: 80vh;
 }
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 80%; */
+}
 
 @media screen and (max-width: 480px) {
     .aisalogo {
-        height: 70%;
+        height: 100%;
     }
     .text {
         margin-top: 0%;
@@ -40,17 +46,15 @@
     .bor {
         border-right: none;
     }
-}
-
-@media screen and (max-width:1000px) {
-    .aisalogo {
-        height: 100%;
-        
+    .heroSection {
+        flex-direction: column;
+        text-align: center;
     }
-    .homeslider {
-        width: 97%;
+    .bor {
+        border: none;
     }
-    .homeslider img {
-        height: 50vh;
+    .col {
+        /* display: flex; */
+        flex: none;
     }
 }

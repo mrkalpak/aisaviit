@@ -11,14 +11,16 @@ import aisaLogo from "../media/img/aisalogo.png";
 const Navbar = () => {
     return (
         <div>
-            <nav className="navbar navbar-expand-lg bg-trasperent navbar-dark navbarText">
+            <nav className="navbar navbar-expand-lg bg-trasperent navbar-light navbarText">
                 <div className="container-fluid">
-                    <a className="navbar-brand ms-5" as={Link} to={"/"}>
-                        <img src={aisaLogo} className="navbar-logo" />
-                    </a>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
+                    <div className="header">
+                        <a className="navbar-brand ms-5" as={Link} to={"/"}>
+                            <img src={aisaLogo} className="navbar-logo" />
+                        </a>
+                        <button className="navbar-toggler h-75" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span className="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto">
                             <li className="nav-item">
