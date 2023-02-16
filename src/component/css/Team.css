@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
 
 * {
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
     /* Background gradient color */
@@ -19,10 +19,7 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
 .text1 {
     font-size: 36px;
     font-weight: bold;
-<<<<<<< HEAD
     /* margin-right: 30px; */
-=======
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     color: #fff;
 }
 
@@ -32,13 +29,9 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
     font-weight: bold;
 }
 
-<<<<<<< HEAD
 /* image */
 .team-img {
 
-=======
-.team-img {
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     margin-top: 50px;
     width: 60% !important;
     transition: all 0.5s ease-in-out;
@@ -46,7 +39,6 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
     -moz-transition: all 0.5s ease-in-out;
 }
 
-<<<<<<< HEAD
 /* cards */
 .row .mycard {
     height: 430px;
@@ -55,24 +47,9 @@ background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%,
     border-radius: 15px;
     background-color: #1585A8;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
-=======
-i {
-    font-size: 26px;
-    cursor: pointer;
-}
-
-.row .card {
-    height: 400px;
-    width: 300px;
-    overflow: hidden;
-    border-radius: 15px;
-    background-color: #3c677c;
-    box-shadow: 5px 5px 15px #241d9a;
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
-    margin-left: 12%;
 }
 
 /* icons */
@@ -80,16 +57,6 @@ i {
     font-size: 26px;
     cursor: pointer;
     color: antiquewhite;
-<<<<<<< HEAD
-=======
-}
-
-.card i {
-    color: rgba(53, 33, 33, 0.8);
-}
-
-.card i {
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     opacity: 0;
     visibility: hidden;
     transition: all 0.6s ease-in-out;
@@ -97,30 +64,21 @@ i {
     -moz-transition: all 0.6s ease-in-out;
 }
 
-<<<<<<< HEAD
 /* hover effect on icons */
 .mycard:hover .icon {
-=======
-.card:hover i {
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     opacity: 1;
     visibility: visible;
     padding: 5px;
     font-size: 28px;
 }
 
-<<<<<<< HEAD
 /* hover effect on image */
 .mycard:hover .team-img {
-=======
-.card:hover img {
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     padding-bottom: 5px;
     margin-top: -2%;
     width: 50% !important;
 }
 
-<<<<<<< HEAD
 /* hover effect on card */
 .mycard:hover {
     background: #115e75;
@@ -133,37 +91,23 @@ i {
 
 
 @media screen and (max-width:780px) {
-=======
-.card:hover {
-    background: #241d9a;
-    color: #fff;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 5px 5px 10px #8c87e8;
-}
-
-@media screen and (max-width: 670px) {
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
     .card-col {
         width: auto;
         height: auto;
     }
-<<<<<<< HEAD
 
     .row .card {
         margin-left: 0%;
     }
 
-=======
-    .row .card {
-        margin-left: 0%;
-    }
->>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
 }
 
-@media screen and (max-width: 770px) and (min-width: 575px) {
+@media screen and (max-width:770px) and (min-width:575px) {
+
+
     .row .card {
         width: 300px;
         margin-left: 0%;
     }
+
 }
