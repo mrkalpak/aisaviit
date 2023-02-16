@@ -1,32 +1,25 @@
 import React from "react";
-import './css/home.css'
-import aisalogo from "../media/img/aisalogo.png"
-import dv from "../media/img/Logo_18.jpeg"
-import bg from "../media/img/bg.webp"
+import "./css/home.css";
+import aisalogo from "../media/img/aisalogo.png";
+import dv from "../media/img/Logo_18.jpeg";
+import bg from "../media/img/bg.webp";
 const Home = () => {
     return (
         <div>
-
-            <div className="container"  >
-
-                <div className="row h-100">
-
+            <div className="container">
+                <div className="row h-100 heroSection">
                     <div className="col bor">
                         <img src={aisalogo} className="aisalogo " />
                     </div>
-                    <div className="col">
-
-                        <h1 className="text-white text">
-
-                            Artificial  <span className="grey-text"> Intelligence</span> <br />
+                    <div className="col me-auto ms-auto">
+                        <h1 className="text-black text">
+                            Artificial <span className="grey-text"> Intelligence</span> <br />
                             Student’s Association
                         </h1>
-                        <h1 className="text-white subtitle">
+                        <h1 className="text-black subtitle">
                             ‘ Unleash the <span className="grey-text">Power of Data</span> ‘
-
                         </h1>
                     </div>
-
                 </div>
             </div>
 
@@ -46,7 +39,7 @@ const Home = () => {
                             <img src={bg} className="d-block w-100" />
                         </div>
                         <div className="carousel-item">
-                            <img src={dv} className="d-block w-100"/>
+                            <img src={dv} className="d-block w-100" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#indicators" data-bs-slide="prev">
@@ -60,7 +53,7 @@ const Home = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;

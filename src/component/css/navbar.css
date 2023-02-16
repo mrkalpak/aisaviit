@@ -1,6 +1,16 @@
 .navbarText {
     font-size: 20px;
 }
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 img.navbar-logo {
     width: 40%;
+}
+@media screen and (max-width: 480px) {
+    img.navbar-logo {
+        width: 70%;
+    }
 }

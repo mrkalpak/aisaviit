@@ -12,8 +12,9 @@
 }
 
 .eventName {
+    padding-top: 12px;
     font-size: 60px;
-    color: 	#ffffff;
+    color: black;
     text-transform: uppercase;
 
 }
@@ -24,19 +25,26 @@
 }
 
 .title {
+    color: black;
+    padding-top: 4px;
     font-size: 40px;
-    padding-left: 202px;
-    padding-right: 32px;
+    padding-left: 70px;
+    padding-right: 10px;
     text-transform: uppercase;
     text-decoration: underline;
 }
 
 .description {
-    padding: 0 120px;
+    padding-right: 80px;
+    padding-left: 80px;
+    color: black;
 }
 
-.description a {
-    font-size: 15px;
+.btn-style {
+    width: 110px;
+    margin-top: 95px;
+    margin-right: 40px;
+    background-image: linear-gradient( 190deg,#6a517981,#394e4c86);
 }
 
 
@@ -47,35 +55,46 @@
         padding-right: 22px;
         text-transform: uppercase;
     }
+    .btn-style{
+        margin-top: 140px;
+    }
 }
 
 @media only screen and (max-width: 1100px) {
     .title {
         font-size: 40px;
-        padding-left: 72px;
-        padding-right: 12px;
+        padding-left: 52px;
+        padding-right: 0px;
+        margin-right: -40px;
         text-transform: uppercase;
     }
+    .btn-style{
+        margin-top: 170px;
+    }
+
+
 }
 
-@media only screen and (max-width: 850px) {
+/* @media only screen and (max-width: 850px) {
     .title {
         font-size: 40px;
         padding-left: 50px;
         padding-right: 4px;
         text-transform: uppercase;
     }
-}
+} */
 
 @media only screen and (max-width: 850px) {
     .detail {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .eventName {
         font-size: 35px;
         margin-bottom: -20px;
+        margin-top: 15px;
     }
 
     .description {
@@ -83,7 +102,7 @@
     }
 
     .title {
-        padding: 2;
+        display: none;
     }
 
     .event {
@@ -95,6 +114,13 @@
         height: 255px;
     }
 
+    .description {
+        font-size: large;
+        text-align: center;
+    }
+
+    .btn-style {
+        margin: 5px;
+      
+    }
 }
-
-

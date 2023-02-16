@@ -1,11 +1,8 @@
 import React from "react";
-import './css/home.css'
+// import "./css/about.css"
+
 const About = () => {
-    return (
-      <div className='App'>
-        <h1 className="text-center">About</h1>
-      </div>
-    )
-  }
-  
-  export default About
+    return <h1>Hii</h1>;
+};
+
+export default About;

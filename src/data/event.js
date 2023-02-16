@@ -1,27 +1,27 @@
 const data = [
   {
     key: 1,
-    title: "Title Name",
+    title: "First Title ",
     description:
-      "Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
+      "Lorem been  typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.      ",
     image: require("../media/img/Logo_18.jpeg"),
     href: "/",
   },
   {
     key: 2,
-    title: "third Name",
+    title: "Second Title",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-      image: require("../media/img/Logo_18.jpeg"),
-      href: "/",
+    image: require("../media/img/Logo_18.jpeg"),
+    href: "/",
   },
   {
     key: 3,
-    title: "New Name",
+    title: "Third Title",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et",
-      image: require("../media/img/Logo_18.jpeg"),
-      href: "/",
+    image: require("../media/img/Logo_18.jpeg"),
+    href: "/",
   },
 ];
 

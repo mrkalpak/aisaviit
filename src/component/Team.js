@@ -1,5 +1,6 @@
 import React from "react";
 import "./css/Team.css";
+<<<<<<< HEAD
 import {
   president,
   core,
@@ -16,6 +17,26 @@ import {
 } from "../data/content";
 
 function Team(props) {
+=======
+import {core} from "../data/content";
+import img1 from "./images/img1.png"
+
+function Team(props) {
+  // President js Obj
+  const presidents = [
+    {
+      Heads: "President",
+      Name: "Jayendra Borse",
+      Contact_no: "7758983297",
+      Year: "TY",
+      Division: "B",
+      Email: "jayendra.22010288@viit.ac.in",
+      Insta_ID: "jayborse04",
+      LinkedIn: "https://www.linkedin.com/in/jayendraborse04/",
+      image: img1,
+    },
+  ];
+>>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
   return (
     <div>
       {" "}
@@ -29,8 +50,13 @@ function Team(props) {
             {" "}
             <div className="col ">
               {" "}
+<<<<<<< HEAD
               <h1 className="text-center text1">Our Team</h1>{" "}
               <h1 className="text-center text1">Core Team</h1>{" "}
+=======
+              <h1 className="text-center">Our Team</h1>{" "}
+              <h1 className="text-center">Core Team</h1>{" "}
+>>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
             </div>{" "}
           </div>{" "}
           {/* end */}
@@ -100,7 +126,11 @@ function Team(props) {
                   key={i}
                 >
                   {" "}
+<<<<<<< HEAD
                   <div className="card mycard my-4">
+=======
+                  <div className="card  my-4">
+>>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
                     {" "}
                     <div className="card-body me-auto ms-auto">
                       {" "}
@@ -109,7 +139,11 @@ function Team(props) {
                         alt="img"
                         className="img-fluid team-img rounded-circle mb-2"
                       />{" "}
+<<<<<<< HEAD
                       <h3 className="text2"> {core.Name}</h3>
+=======
+                      <h3> {core.Name}</h3>
+>>>>>>> 55c5ec0c75286e493da38b501a99fda77a59aa8d
                       <h5>{core.Heads}</h5>{" "}
                       <div className="d-flex flex-row justify-content-center">
                         {" "}
