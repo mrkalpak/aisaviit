@@ -1,6 +1,6 @@
 import React from "react";
 import "./css/Team.css";
-import lists from "../data/content";
+import {core} from "../data/content";
 import img1 from "./images/img1.png"
 
 function Team(props) {
@@ -31,12 +31,13 @@ function Team(props) {
             {" "}
             <div className="col ">
               {" "}
-              <h1>Our Team</h1>{" "}
+              <h1 className="text-center">Our Team</h1>{" "}
+              <h1 className="text-center">Core Team</h1>{" "}
             </div>{" "}
           </div>{" "}
           {/* end */}
           {/* Cards section */}
-          <div className="cards ">
+          <div className="cards my-4">
             {" "}
             {/* Row for top 1 card */}
             <div className="row ">
@@ -53,7 +54,7 @@ function Team(props) {
                       <img
                         src={president.image}
                         alt="img"
-                        className="img-fluid rounded-circle"
+                        className="img-fluid team-img rounded-circle"
                       />{" "}
                       <h3> {president.Name}</h3>
                       <h5>{president.Heads}</h5>{" "}
@@ -94,29 +95,29 @@ function Team(props) {
             <div className="row">
               {" "}
               {/* js map function to get card details from content.js */}
-              {lists.map((list, i) => (
+              {core.map((core, i) => (
                 //  cards
                 <div
                   className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
                   key={i}
                 >
                   {" "}
-                  <div className="card  mt-4">
+                  <div className="card  my-4">
                     {" "}
                     <div className="card-body me-auto ms-auto">
                       {" "}
                       <img
-                        src={list.image}
+                        src={core.image}
                         alt="img"
-                        className="img-fluid rounded-circle mb-2"
+                        className="img-fluid team-img rounded-circle mb-2"
                       />{" "}
-                      <h3> {list.Name}</h3>
-                      <h5>{list.Heads}</h5>{" "}
+                      <h3> {core.Name}</h3>
+                      <h5>{core.Heads}</h5>{" "}
                       <div className="d-flex flex-row justify-content-center">
                         {" "}
                         <div className="p-3">
                           {" "}
-                          <a href={list.LinkedIn}>
+                          <a href={core.LinkedIn}>
                             {" "}
                             <i className="fa fa-linkedin-square"></i>{" "}
                           </a>{" "}
@@ -124,7 +125,7 @@ function Team(props) {
                         <div className="p-3">
                           {" "}
                           <a
-                            href={"https://www.instagram.com/" + list.Insta_ID}
+                            href={"https://www.instagram.com/" + core.Insta_ID}
                           >
                             {" "}
                             <i className="fa fa-instagram"></i>{" "}
@@ -132,7 +133,7 @@ function Team(props) {
                         </div>{" "}
                         <div className="p-3">
                           {" "}
-                          <a href={"mailto:" + list.Email}>
+                          <a href={"mailto:" + core.Email}>
                             {" "}
                             <i className="fa fa-envelope-o"></i>{" "}
                           </a>{" "}

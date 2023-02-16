@@ -27,7 +27,7 @@ h3 {
     font-weight: bold;
 }
 
-img {
+.team-img {
 
     margin-top: 50px;
     width: 60% !important;
@@ -53,6 +53,8 @@ i {
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
+    margin-left: 12%;
+    
 }
 
 .card i:hover {
@@ -110,6 +112,9 @@ i {
         width: auto;
         height: auto;
     }
+    .row .card{
+        margin-left: 0%;
+    }
 
 }
 
@@ -119,7 +124,7 @@ i {
     .row .card {
         min-height: 550px;
         width: 300px;
-
+        margin-left: 0%;
     }
 
 }

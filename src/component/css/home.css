@@ -4,7 +4,7 @@
 .bor {
     border-right: 1px solid white;
 }
-.row {
+.row-1 {
     padding-top: 10%;
     padding-bottom: 15%;
 }
@@ -39,5 +39,18 @@
     }
     .bor {
         border-right: none;
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .aisalogo {
+        height: 100%;
+        
+    }
+    .homeslider {
+        width: 97%;
+    }
+    .homeslider img {
+        height: 50vh;
     }
 }

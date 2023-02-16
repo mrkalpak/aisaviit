@@ -9,7 +9,7 @@ const Home = () => {
 
             <div className="container"  >
 
-                <div className="row h-100">
+                <div className="row row-1 h-100">
 
                     <div className="col bor">
                         <img src={aisalogo} className="aisalogo " />

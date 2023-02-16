@@ -1,7 +1,7 @@
 import img1 from "../media/img/team/img1.png"
 
 // JS Object for team members
-const lists = [
+const core = [
   {
     Heads: "Vice-President",
     Name: "Sahil Soujani",
@@ -24,6 +24,8 @@ const lists = [
     LinkedIn: "https://in.linkedin.com/in/pranav-bagade",
     image: img1,
   },
+ 
+ 
   {
     Heads: "Treasurer",
     Name: "Nayan Chandak",
@@ -88,17 +90,7 @@ const lists = [
     LinkedIn: "https://www.linkedin.com/in/shardulkhandebharad/",
     image: img1,
   },
-  {
-    Heads: "Content",
-    Name: "Aditi Nikam",
-    Email: "aditi.22120155@viit.ac.in",
-    Contact_no: "7219113545",
-    Year: "TY",
-    Division: "B",
-    Insta_ID: "_aditi_nikam_",
-    LinkedIn: "www.linkedin.com/in/aditinikam",
-    image: img1,
-  },
+ 
   {
     Heads: "Documentation & Magazine",
     Name: "Adnan Burhanpurwala",
@@ -144,5 +136,29 @@ const lists = [
     image: img1,
   },
 ];
+
+const content=[
+  {
+    Heads: "Content Head",
+    Name: "Aditi Nikam",
+    Email: "aditi.22120155@viit.ac.in",
+    Contact_no: "7219113545",
+    Year: "TY",
+    Division: "B",
+    Insta_ID: "_aditi_nikam_",
+    LinkedIn: "www.linkedin.com/in/aditinikam",
+    image: img1,
+  },
+  {
+    Heads: "Ty member",
+    Name: "Shreya Pawar",
+    Email: "shreya.22010544@viit.ac.in",
+    Insta_ID: "_aditi_nikam_",
+    LinkedIn: "www.linkedin.com/in/aditinikam",
+    image: img1,
+  },
+]
+
+
 // exporting lists
-export default lists;
+export   {core};
