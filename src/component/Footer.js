@@ -1,5 +1,5 @@
 import React from "react";
-import "./Footer.css";
+import "./css/Footer.css";
 import pic from "./images/aisalogo.png";
 function Footer() {
   return (
@@ -14,7 +14,7 @@ function Footer() {
         </div>
         <div className="container-fluid pt-5 pb-5 ">
           <div className="row">
-            <div className="col-md-2 mx-auto image">
+            <div className="col-md-2 mx-auto aisa_logo">
               <img src={pic} />
             </div>
 
@@ -26,19 +26,19 @@ function Footer() {
             </div>
             <div className="col-md-3 my-4 mx-4 text-center">
               <h4 className="font-weight-bold mb-3">MOVE AROUND LINKS</h4>
-              <p>
+              <p className="mal">
                 <a href="#">HOME</a>
               </p>
-              <p>
+              <p className="mal">
                 <a href="#">TEAM</a>
               </p>
-              <p>
+              <p className="mal">
                 <a href="#">EVENT</a>
               </p>{" "}
-              <p>
+              <p className="mal">
                 <a href="#">ABOUT US</a>
               </p>{" "}
-              <p>
+              <p className="mal">
                 <a href="#">CONTACT US</a>
               </p>{" "}
              
@@ -49,11 +49,11 @@ function Footer() {
 
             <div className="col-md-3 my-4 mx-3 text-center">
               <h4 className="font-weight-bold mb-3">CONNECT</h4>
-              <p><i className="fa fa-instagram"></i>     INSTAGRAM </p>
-              <p><i className="fa fa-linkedin-square"></i>     LINKED-IN</p>
-              <p><i className="fa fa-facebook"></i>     FACEBOOK</p>
-              <p><i className="fa fa-regular fa-phone"></i>     PHONE</p>
-              <p><i class="fa fa fa-home"></i>     OUR DOME (D-313)</p>
+              <p className="mal"><i className="fa fa-instagram"></i>     INSTAGRAM </p>
+              <p className="mal"><i className="fa fa-linkedin-square"></i>     LINKED-IN</p>
+              <p className="mal"><i className="fa fa-facebook"></i>     FACEBOOK</p>
+              <p className="mal"><i className="fa fa-regular fa-phone"></i>     PHONE</p>
+              <p className="mal"><i class="fa fa fa-home"></i>     OUR DOME (D-313)</p>
               <p></p>
               
               
