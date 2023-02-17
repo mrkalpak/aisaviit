@@ -13,6 +13,7 @@ import {
   youtube,
   photography,
   finance,
+  faculty,
 } from "../data/content";
 
 function Team(props) {
@@ -30,7 +31,6 @@ function Team(props) {
             <div className="col ">
               {" "}
               <h1 className="text-center text1">Our Team</h1>{" "}
-              <h1 className="text-center text1">Core Team</h1>{" "}
             </div>{" "}
           </div>{" "}
           {/* end */}
@@ -38,7 +38,61 @@ function Team(props) {
           <div className="cards my-4">
             {" "}
             {/* Row for top 1 card */}
+            <div className="row">
+              <h1 className="text-center text1">Faculty Team</h1>{" "}
+              {/* js map function to get card details from content.js */}
+              {faculty.map((faculty, i) => (
+                //  cards
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
+                  key={i}
+                >
+                  {" "}
+                  <div className="card mycard my-4">
+                    {" "}
+                    <div className="card-body me-auto ms-auto">
+                      {" "}
+                      <img
+                        src={faculty.image}
+                        alt="img"
+                        className="img-fluid team-img rounded-circle mb-2"
+                      />{" "}
+                      <h3 className="text2"> {faculty.Name}</h3>
+                      <h5>{faculty.Heads}</h5>{" "}
+                      <div className="d-flex flex-row justify-content-center">
+                        {" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={faculty.LinkedIn}>
+                            {" "}
+                            <i className="icon fa fa-linkedin-square"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a
+                            href={"https://www.instagram.com/" + faculty.Insta_ID}
+                          >
+                            {" "}
+                            <i className="icon fa fa-instagram"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={"mailto:" + faculty.Email}>
+                            {" "}
+                            <i className="icon fa fa-envelope-o"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </div>{" "}
+                </div>
+              ))}
+            </div>{" "}
+            {/* Row for top 1 card */}
             <div className="row ">
+              <h1 className="text-center text1">Core Team</h1>{" "}
               {president.map((president, i) => (
                 <div
                   className="col-lg-4 col-md-6 col-sm-12 card-col card-deck mx-auto"
