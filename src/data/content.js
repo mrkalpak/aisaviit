@@ -257,6 +257,35 @@ const finance = [
     image: img1,
   },
 ];
+const faculty = [
+  {
+    Heads: "Faculty co-ordinator",
+    Name: "Santosh Kumar",
+    Email: "",
+    Insta_ID: "dssant2021",
+    LinkedIn: "https://www.linkedin.com/in/21025kumar/",
+    image: img1,
+  },
+  {
+    Heads: "Head of Department AI & DS",
+    Name: "Dr Parikshit Mahalle",
+
+    Email: "",
+    Insta_ID: "parikshit_mahalle14",
+    LinkedIn: "https://www.linkedin.com/in/parikshit-mahalle-876061116/",
+    image: img1,
+  },
+  {
+    Heads: "Faculty co-ordinator",
+    Name: "Suwarna Bhagwat",
+
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/suvarnarbhagwat/",
+    image: img1,
+  },
+
+];
 // exports;
 export {
   president,
@@ -271,4 +300,5 @@ export {
   youtube,
   photography,
   finance,
+  faculty,
 };
