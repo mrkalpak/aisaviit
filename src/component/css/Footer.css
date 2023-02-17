@@ -16,11 +16,11 @@ body{
 
 
 
-.image{
+.aisa_logo{
     width: auto;
 }
 
-p{
+.mal{
     cursor: pointer;
 }
  
@@ -34,7 +34,7 @@ h1{
     font-size: 70px;
       /* transform: rotate(); */
 }
-p,h1{
+.mal,h1{
     color: whitesmoke;
 }
 /* h4{
@@ -47,7 +47,7 @@ hr{
     width: 50%;
     margin-left: 0;
 }
-img{
+.aisa_logo{
     width:200px;
     background-color: powderblue; 
     border-radius: 25%;
@@ -55,7 +55,7 @@ img{
     margin-left: 20px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
 }
-img:hover{
+.aisa_logo:hover{
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.8);
 }
  
@@ -66,6 +66,4 @@ i{
 a:hover{
     color: white;
 }
-info{
-    text-align: left;
-}
+
