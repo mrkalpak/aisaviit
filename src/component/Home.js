@@ -6,7 +6,7 @@ import bg from "../media/img/bg.webp";
 const Home = () => {
     return (
         <div>
-            <div className="container">
+            <div className="container_home container">
                 <div className="row h-100 heroSection">
                     <div className="col bor">
                         <img src={aisalogo} className="aisalogo " />

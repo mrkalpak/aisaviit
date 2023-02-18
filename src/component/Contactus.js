@@ -66,20 +66,6 @@ const Contactus = () => {
                     </a>
                     <div className="name"> - ABC XYZ</div>
                 </div>
-                <div className="phone">
-                    <img src={phImg}></img>
-                    <a href="tel:+91 9234 567 876">
-                        <div className="phNo">+91 9234 567 876</div>
-                    </a>
-                    <div className="name"> - ABC XYZ</div>
-                </div>
-                <div className="phone">
-                    <img src={phImg}></img>
-                    <a href="tel:+91 9234 567 876">
-                        <div className="phNo">+91 9234 567 876</div>
-                    </a>
-                    <div className="name"> - ABC XYZ</div>
-                </div>
             </div>
         </div>
     );

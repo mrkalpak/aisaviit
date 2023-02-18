@@ -1,5 +1,5 @@
 // JS Object
-import img1 from "./images/img1.webp";
+import img1 from "../media/img/team/img1.png";
 // President js Obj
 const president = [
   {

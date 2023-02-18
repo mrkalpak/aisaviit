@@ -1,23 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
-body{
-    font-family: Verdana, Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #1f2f98;  
-  }
 
 .content{
     padding-left: 10px;
+    background-color: #1486aa;  
 }
-.text{
+.text_footer{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     font-size: 28px;
 }
 
 
-
 .aisa_logo{
     width: auto;
+    height: 75%;
+    margin-left: 0;
 }
 
 .mal{
@@ -29,14 +27,8 @@ a{
     text-decoration: none;
     color: #fff;
 }
-h1{
-    writing-mode: vertical-rl;
-    font-size: 70px;
-      /* transform: rotate(); */
-}
-.mal,h1{
-    color: whitesmoke;
-}
+
+
 /* h4{
     color: powderblue;
 

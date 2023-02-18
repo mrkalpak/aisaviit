@@ -20,8 +20,7 @@ function Team(props) {
   return (
     <div>
       {" "}
-      {/* Section for creating cards */}
-      <section>
+      
         {" "}
         <div className="container text-center">
           {" "}
@@ -39,7 +38,7 @@ function Team(props) {
             {" "}
             {/* Row for top 1 card */}
             <div className="row">
-              <h1 className="text-center text1">Faculty Team</h1>{" "}
+              <h1 className="text-center text1">Faculty Coordinator</h1>{" "}
               {/* js map function to get card details from content.js */}
               {faculty.map((faculty, i) => (
                 //  cards
@@ -248,6 +247,59 @@ function Team(props) {
                 </div>
               ))}
             </div>{" "}
+           
+            <div className="row">
+              <h1 className="text-center text1">Techinal Team</h1>{" "}
+              {/* js map function to get card details from content.js */}
+              {tech.map((tech, i) => (
+                //  cards
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
+                  key={i}
+                >
+                  {" "}
+                  <div className="card mycard my-4">
+                    {" "}
+                    <div className="card-body me-auto ms-auto">
+                      {" "}
+                      <img
+                        src={tech.image}
+                        alt="img"
+                        className="img-fluid team-img rounded-circle mb-2"
+                      />{" "}
+                      <h3 className="text2"> {tech.Name}</h3>
+                      <h5>{tech.Heads}</h5>{" "}
+                      <div className="d-flex flex-row justify-content-center">
+                        {" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={tech.LinkedIn}>
+                            {" "}
+                            <i className="icon fa fa-linkedin-square"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a
+                            href={"https://www.instagram.com/" + tech.Insta_ID}
+                          >
+                            {" "}
+                            <i className="icon fa fa-instagram"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={"mailto:" + tech.Email}>
+                            {" "}
+                            <i className="icon fa fa-envelope-o"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </div>{" "}
+                </div>
+              ))}
+            </div>{" "}
             <div className="row">
               <h1 className="text-center text1">Publicity Team</h1>{" "}
               {/* js map function to get card details from content.js */}
@@ -302,167 +354,8 @@ function Team(props) {
                 </div>
               ))}
             </div>{" "}
-            <div className="row">
-              <h1 className="text-center text1">Techinal Team</h1>{" "}
-              {/* js map function to get card details from content.js */}
-              {tech.map((tech, i) => (
-                //  cards
-                <div
-                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
-                  key={i}
-                >
-                  {" "}
-                  <div className="card mycard my-4">
-                    {" "}
-                    <div className="card-body me-auto ms-auto">
-                      {" "}
-                      <img
-                        src={tech.image}
-                        alt="img"
-                        className="img-fluid team-img rounded-circle mb-2"
-                      />{" "}
-                      <h3 className="text2"> {tech.Name}</h3>
-                      <h5>{tech.Heads}</h5>{" "}
-                      <div className="d-flex flex-row justify-content-center">
-                        {" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={tech.LinkedIn}>
-                            {" "}
-                            <i className="icon fa fa-linkedin-square"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a
-                            href={"https://www.instagram.com/" + tech.Insta_ID}
-                          >
-                            {" "}
-                            <i className="icon fa fa-instagram"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={"mailto:" + tech.Email}>
-                            {" "}
-                            <i className="icon fa fa-envelope-o"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                      </div>{" "}
-                    </div>{" "}
-                  </div>{" "}
-                </div>
-              ))}
-            </div>{" "}
-            <div className="row">
-              <h1 className="text-center text1">Video Creator Team</h1>{" "}
-              {/* js map function to get card details from content.js */}
-              {video_Creator.map((video_Creator, i) => (
-                //  cards
-                <div
-                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
-                  key={i}
-                >
-                  {" "}
-                  <div className="card mycard my-4">
-                    {" "}
-                    <div className="card-body me-auto ms-auto">
-                      {" "}
-                      <img
-                        src={video_Creator.image}
-                        alt="img"
-                        className="img-fluid team-img rounded-circle mb-2"
-                      />{" "}
-                      <h3 className="text2"> {video_Creator.Name}</h3>
-                      <h5>{video_Creator.Heads}</h5>{" "}
-                      <div className="d-flex flex-row justify-content-center">
-                        {" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={video_Creator.LinkedIn}>
-                            {" "}
-                            <i className="icon fa fa-linkedin-square"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a
-                            href={
-                              "https://www.instagram.com/" +
-                              video_Creator.Insta_ID
-                            }
-                          >
-                            {" "}
-                            <i className="icon fa fa-instagram"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={"mailto:" + video_Creator.Email}>
-                            {" "}
-                            <i className="icon fa fa-envelope-o"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                      </div>{" "}
-                    </div>{" "}
-                  </div>{" "}
-                </div>
-              ))}
-            </div>{" "}
-            <div className="row">
-              <h1 className="text-center text1">Content Team</h1>{" "}
-              {/* js map function to get card details from content.js */}
-              {content.map((content, i) => (
-                //  cards
-                <div
-                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
-                  key={i}
-                >
-                  {" "}
-                  <div className="card mycard my-4">
-                    {" "}
-                    <div className="card-body me-auto ms-auto">
-                      {" "}
-                      <img
-                        src={content.image}
-                        alt="img"
-                        className="img-fluid team-img rounded-circle mb-2"
-                      />{" "}
-                      <h3 className="text2"> {content.Name}</h3>
-                      <h5>{content.Heads}</h5>{" "}
-                      <div className="d-flex flex-row justify-content-center">
-                        {" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={content.LinkedIn}>
-                            {" "}
-                            <i className="icon fa fa-linkedin-square"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a
-                            href={
-                              "https://www.instagram.com/" + content.Insta_ID
-                            }
-                          >
-                            {" "}
-                            <i className="icon fa fa-instagram"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={"mailto:" + content.Email}>
-                            {" "}
-                            <i className="icon fa fa-envelope-o"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                      </div>{" "}
-                    </div>{" "}
-                  </div>{" "}
-                </div>
-              ))}
-            </div>{" "}
+        
+            
             <div className="row">
               <h1 className="text-center text1">Design Team</h1>{" "}
               {/* js map function to get card details from content.js */}
@@ -617,6 +510,115 @@ function Team(props) {
                         <div className="p-3">
                           {" "}
                           <a href={"mailto:" + design.Email}>
+                            {" "}
+                            <i className="icon fa fa-envelope-o"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </div>{" "}
+                </div>
+              ))}
+            </div>{" "}
+            <div className="row">
+              <h1 className="text-center text1">Content Team</h1>{" "}
+              {/* js map function to get card details from content.js */}
+              {content.map((content, i) => (
+                //  cards
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
+                  key={i}
+                >
+                  {" "}
+                  <div className="card mycard my-4">
+                    {" "}
+                    <div className="card-body me-auto ms-auto">
+                      {" "}
+                      <img
+                        src={content.image}
+                        alt="img"
+                        className="img-fluid team-img rounded-circle mb-2"
+                      />{" "}
+                      <h3 className="text2"> {content.Name}</h3>
+                      <h5>{content.Heads}</h5>{" "}
+                      <div className="d-flex flex-row justify-content-center">
+                        {" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={content.LinkedIn}>
+                            {" "}
+                            <i className="icon fa fa-linkedin-square"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a
+                            href={
+                              "https://www.instagram.com/" + content.Insta_ID
+                            }
+                          >
+                            {" "}
+                            <i className="icon fa fa-instagram"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={"mailto:" + content.Email}>
+                            {" "}
+                            <i className="icon fa fa-envelope-o"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </div>{" "}
+                </div>
+              ))}
+            </div>{" "}
+            <div className="row">
+              <h1 className="text-center text1">Video Creator Team</h1>{" "}
+              {/* js map function to get card details from content.js */}
+              {video_Creator.map((video_Creator, i) => (
+                //  cards
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
+                  key={i}
+                >
+                  {" "}
+                  <div className="card mycard my-4">
+                    {" "}
+                    <div className="card-body me-auto ms-auto">
+                      {" "}
+                      <img
+                        src={video_Creator.image}
+                        alt="img"
+                        className="img-fluid team-img rounded-circle mb-2"
+                      />{" "}
+                      <h3 className="text2"> {video_Creator.Name}</h3>
+                      <h5>{video_Creator.Heads}</h5>{" "}
+                      <div className="d-flex flex-row justify-content-center">
+                        {" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={video_Creator.LinkedIn}>
+                            {" "}
+                            <i className="icon fa fa-linkedin-square"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a
+                            href={
+                              "https://www.instagram.com/" +
+                              video_Creator.Insta_ID
+                            }
+                          >
+                            {" "}
+                            <i className="icon fa fa-instagram"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={"mailto:" + video_Creator.Email}>
                             {" "}
                             <i className="icon fa fa-envelope-o"></i>{" "}
                           </a>{" "}
@@ -792,7 +794,7 @@ function Team(props) {
             </div>{" "}
           </div>{" "}
         </div>{" "}
-      </section>{" "}
+      
     </div>
   );
 }

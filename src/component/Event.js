@@ -18,7 +18,7 @@ const Event = () => {
               </h5>
            <p className="card-text description">{element.description} </p>
               <a href={element.href}>
-                <button type="button" class="btn btn-primary btn-sm btn-style">
+                <button type="button" class="btn btn-primary  btn-style">
                   Explore More
                 </button>
               </a>

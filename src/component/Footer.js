@@ -1,21 +1,15 @@
 import React from "react";
 import "./css/Footer.css";
-import pic from "./images/aisalogo.png";
+import pic from "../media/img/aisalg.png";
 function Footer() {
   return (
     <>
-      <footer className="text-white">
-        <div className="row py-3 d-flex align-items-center bg-primary">
-          <div className="col-md-12 mt-2 text-center">
-            <h4 className="text">
-              ARTIFICIAL INTELLIGENCE STUDENTS ASSOCIATION
-            </h4>
-          </div>
-        </div>
-        <div className="container-fluid pt-5 pb-5 ">
+      <footer className="text-white content">
+        
+        <div className="container-fluid pt-3 pb-3 mt-3 ">
           <div className="row">
-            <div className="col-md-2 mx-auto aisa_logo">
-              <img src={pic} />
+            <div className="col-md-2 mx-auto ">
+              <img className="aisa_logo" src={pic} />
             </div>
 
             <div className="col-md-3 my-4 mx-3 text-center">
@@ -59,7 +53,7 @@ function Footer() {
               
             </div>
 
-            <div className="footer-copywright text-center py-3">
+            <div className="footer-copywright text-center py-1">
               <p>
                 &copy; Copyright
                 <a href="#"> ARTIFICIAL INTELLEGINCE STUDENTS ASSOCIATION</a>

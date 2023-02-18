@@ -2,6 +2,7 @@ import { isDOMComponent } from 'react-dom/test-utils';
 import './App.css';
 import Home from './component/Home';
 import Navbar from './component/Navbar'
+import Footer from './component/Footer';
 
 
 
@@ -10,8 +11,8 @@ import Navbar from './component/Navbar'
 const App = () => {
   return (
     <div className='App'>
-      <Navbar/>
-      
+      <Navbar />
+      <Footer className="header-content"/>
     </div>
   )
 }
