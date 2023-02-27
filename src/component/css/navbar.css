@@ -9,6 +9,9 @@
 img.navbar-logo {
     width: 40%;
 }
+a{
+    color: black !important;
+}
 @media screen and (max-width: 480px) {
     img.navbar-logo {
         width: 70%;

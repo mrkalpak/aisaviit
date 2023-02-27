@@ -9,7 +9,7 @@ function Footer() {
         <div className="container-fluid pt-3 pb-3 mt-3 ">
           <div className="row">
             <div className="col-md-2 mx-auto ">
-              <img className="aisa_logo" src={pic} />
+              <img className="aisa_logo" alt="" src={pic} />
             </div>
 
             <div className="col-md-3 my-4 mx-3 text-center">
@@ -21,19 +21,19 @@ function Footer() {
             <div className="col-md-3 my-4 mx-4 text-center">
               <h4 className="font-weight-bold mb-3">MOVE AROUND LINKS</h4>
               <p className="mal">
-                <a href="#">HOME</a>
+                <a className="text-white"  href="./">HOME</a>
               </p>
               <p className="mal">
-                <a href="#">TEAM</a>
+                <a className="text-white" href="./">TEAM</a>
               </p>
               <p className="mal">
-                <a href="#">EVENT</a>
+                <a className="text-white" href="./">EVENT</a>
               </p>{" "}
               <p className="mal">
-                <a href="#">ABOUT US</a>
+                <a className="text-white" href="./">ABOUT US</a>
               </p>{" "}
               <p className="mal">
-                <a href="#">CONTACT US</a>
+                <a className="text-white" href="./">CONTACT US</a>
               </p>{" "}
              
             </div>
@@ -43,9 +43,9 @@ function Footer() {
 
             <div className="col-md-3 my-4 mx-3 text-center">
               <h4 className="font-weight-bold mb-3">CONNECT</h4>
-              <p className="mal"><i className="fa fa-instagram"></i>  <a href="https://www.instagram.com/aisa_viit/">INSTAGRAM</a>   </p>
-              <p className="mal"><i className="fa fa-linkedin-square"></i>    <a href="https://www.linkedin.com/company/aisaviit/">LINKED-IN</a> </p>
-              <p className="mal"><i className="fa fa-regular fa-whatsapp"></i>     <a href="">Whatspp</a></p>
+              <p className="mal"><i className="fa fa-instagram"></i>  <a className="text-white" href="https://www.instagram.com/aisa_viit/">INSTAGRAM</a>   </p>
+              <p className="mal"><i className="fa fa-linkedin-square"></i>    <a className="text-white" href="https://www.linkedin.com/company/aisaviit/">LINKED-IN</a> </p>
+              <p className="mal"><i className="fa fa-regular fa-whatsapp"></i>     <a className="text-white" href="./">Whatspp</a></p>
               <p className="mal"><i class="fa fa fa-home"></i>     OUR DOME (D-313)</p>
               <p></p>
               
@@ -55,7 +55,7 @@ function Footer() {
             <div className="footer-copywright text-center py-1">
               <p>
                 &copy; Copyright
-                <a href="#"> ARTIFICIAL INTELLEGINCE STUDENTS ASSOCIATION</a>
+                <a className="text-white" href="./"> ARTIFICIAL INTELLEGINCE STUDENTS ASSOCIATION</a>
               </p>
             </div>
           </div>
