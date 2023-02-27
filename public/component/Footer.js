@@ -43,10 +43,9 @@ function Footer() {
 
             <div className="col-md-3 my-4 mx-3 text-center">
               <h4 className="font-weight-bold mb-3">CONNECT</h4>
-              <p className="mal"><i className="fa fa-instagram"></i>     INSTAGRAM </p>
-              <p className="mal"><i className="fa fa-linkedin-square"></i>     LINKED-IN</p>
-              <p className="mal"><i className="fa fa-facebook"></i>     FACEBOOK</p>
-              <p className="mal"><i className="fa fa-regular fa-phone"></i>     PHONE</p>
+              <p className="mal"><i className="fa fa-instagram"></i>  <a href="https://www.instagram.com/aisa_viit/">INSTAGRAM</a>   </p>
+              <p className="mal"><i className="fa fa-linkedin-square"></i>    <a href="https://www.linkedin.com/company/aisaviit/">LINKED-IN</a> </p>
+              <p className="mal"><i className="fa fa-regular fa-whatsapp"></i>     <a href="">Whatspp</a></p>
               <p className="mal"><i class="fa fa fa-home"></i>     OUR DOME (D-313)</p>
               <p></p>
               

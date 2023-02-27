@@ -9,7 +9,7 @@ const president = [
     Email: "jayendra.22010288@viit.ac.in",
     Insta_ID: "jayborse04",
     LinkedIn: "https://www.linkedin.com/in/jayendraborse04/",
-    image: img1,
+    image: require("../media/img/team/jayendra.jpg"),
   },
 ];
 const core = [
@@ -19,7 +19,7 @@ const core = [
     Email: "sahil.22010595@viit.ac.in",
     Insta_ID: "soujanisahil",
     LinkedIn: "https://www.linkedin.com/in/soujanisahil",
-    image: img1,
+    image: require("../media/img/team/sahil.png"),
   },
   {
     Heads: "Secretary",
@@ -30,7 +30,7 @@ const core = [
     Division: "A",
     Insta_ID: "vedant",
     LinkedIn: "https://in.linkedin.com/in/pranav-bagade",
-    image: img1,
+    image: require("../media/img/team/pranav.jpg"),
   },
   {
     Heads: "Treasurer",
@@ -40,7 +40,7 @@ const core = [
     Year: "TY",
     Division: "A",
     Insta_ID: "nayanchandak ",
-    image: img1,
+    image: require("../media/img/team/nayan.jpg"),
   },
 ];
 const event = [
@@ -50,14 +50,14 @@ const event = [
     Email: "rahul.22011024@viit.ac.in",
     Insta_ID: "__rahul_choubey",
     LinkedIn: "https://www.linkedin.com/in/choubeyrahul",
-    image: img1,
+    image: require("../media/img/team/rahul.jpg"),
   },
   {
     Heads: "Event Management",
     Name: "Atharva Jadhav",
     Email: "atharva.22010121@viit.ac.in",
     Insta_ID: "atharva2436",
-    image: img1,
+    image: require("../media/img/team/atharv.jpg"),
   },
   {
     Heads: "TY Members",
@@ -65,7 +65,7 @@ const event = [
     Email: "prajwal.22010591@viit.ac.in",
     Insta_ID: "the_resurrection17",
     LinkedIn: "https://www.linkedin.com/in/prajwal-waykos-a78105207/",
-    image: img1,
+    image: require("../media/img/team/prajwal.jpg"),
   },
   {
     Heads: "TY Members",
@@ -73,7 +73,7 @@ const event = [
     Email: "pratham.22010590@viit.ac.in",
     Insta_ID: "prathamraka",
     LinkedIn: "https://www.linkedin.com/in/pratham-raka-b43590207",
-    image: img1,
+    image: require("../media/img/team/Pratham.jpg"),
   },
 ];
 const publicity = [
@@ -83,7 +83,7 @@ const publicity = [
     Email: "shruti.22120119@viit.ac.in ",
     Insta_ID: "shrutijadhav.23 ",
     LinkedIn: "https://www.linkedin.com/in/shruti-jadhav-744650208/",
-    image: img1,
+    image: require("../media/img/team/shruti.jpg"),
   },
   {
     Heads: "TY Members",
@@ -91,7 +91,7 @@ const publicity = [
     Email: "hemakshi.22011041@viit.ac.in",
     Insta_ID: "hemakshi_lohiya",
     LinkedIn: "https://www.linkedin.com/in/hemakshi-lohiya-686701239",
-    image: img1,
+    image: require("../media/img/team/hemashi.jpg"),
   },
   {
     Heads: "TY Members",
@@ -108,7 +108,7 @@ const tech = [
     Email: "neemeesh.22010929@viit.ac.in",
     Insta_ID: "neemeesh_khanzode",
     LinkedIn: "https://www.linkedin.com/in/neemeesh-khanzode/",
-    image: img1,
+    image: require("../media/img/team/neemeesh.png"),
   },
   {
     Heads: "TY Members",
@@ -117,7 +117,7 @@ const tech = [
 
     Insta_ID: "kalpak_jn",
     LinkedIn: "https://www.linkedin.com/in/kalpak-nemade-295a79209",
-    image: img1,
+    image: require("../media/img/team/kalpak.jpeg"),
   },
   {
     Heads: "TY Members",
@@ -135,7 +135,7 @@ const video_Creator = [
     Email: "shardul.22010207@viit.ac.in",
     Insta_ID: "shardul.a.k_2002",
     LinkedIn: "https://www.linkedin.com/in/shardulkhandebharad/",
-    image: img1,
+    image: require("../media/img/team/shardul.jpeg"),
   },
   {
     Heads: "TY Members",
@@ -154,7 +154,7 @@ const content = [
     Email: "aditi.22120155@viit.ac.in",
     Insta_ID: "_aditi_nikam_",
     LinkedIn: "www.linkedin.com/in/aditinikam",
-    image: img1,
+    image: require("../media/img/team/aditi.jpg"),
   },
   {
     Heads: "TY Members",
@@ -162,7 +162,7 @@ const content = [
     Email: "shreya.22010544@viit.ac.in",
     InstaID: "shreii_07 ",
     LinkedIn: "https://www.linkedin.com/in/shreya-pawar-993532206/",
-    image: img1,
+    image: require("../media/img/team/shreyap.jpg"),
   },
 ];
 
@@ -173,7 +173,7 @@ const doc_Mag = [
     Email: "adnan.22010210@viit.ac.in",
     Insta_ID: "adnan_b07_",
     LinkedIn: "https://www.linkedin.com/in/adnan-burhanpurwala-aa2404206/",
-    image: img1,
+    image: require("../media/img/team/Adnan.jpg"),
   },
   {
     Heads: "TY Members",
@@ -191,7 +191,7 @@ const doc_Mag = [
 
     Insta_ID: "__noops22__",
     LinkedIn: "https://www.linkedin.com/in/noopur-phadke-958a77213",
-    image: img1,
+    image: require("../media/img/team/noopur.jpg"),
   },
 ];
 
@@ -203,7 +203,7 @@ const design = [
 
     Insta_ID: "_shreya_1402",
     LinkedIn: "https://www.linkedin.com/in/shreya-patil-79b541219",
-    image: img1,
+    image: require("../media/img/team/shreya.jpg"),
   },
   {
     Heads: "TY Members",
@@ -212,7 +212,7 @@ const design = [
 
     Insta_ID: "omsai_zadi",
     LinkedIn: "https://www.linkedin.com/in/omsai-zadi-553743244",
-    image: img1,
+    image: require("../media/img/team/omsai.jpg"),
   },
   {
     Heads: "TY Members",
@@ -226,12 +226,12 @@ const design = [
 const youtube = [
   {
     Heads: "Youtube",
-    Name: "Shreya Patil",
+    Name: "Ruchika Taware",
     Email: "ruchika.22010715@viit.ac.in",
 
     Insta_ID: "ruchika_taware",
     LinkedIn: "https://www.linkedin.com/in/ruchika-taware-76463820a/",
-    image: img1,
+    image: require("../media/img/team/ruchika.jpg"),
   },
 ];
 
@@ -243,7 +243,7 @@ const photography = [
 
     Insta_ID: "_prasadawhale",
     LinkedIn: "https://www.linkedin.com/in/prasadawhale",
-    image: img1,
+    image: require("../media/img/team/prasad.jpg"),
   },
 ];
 const finance = [

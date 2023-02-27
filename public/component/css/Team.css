@@ -23,7 +23,8 @@
 .team-img {
 
     margin-top: 50px;
-    width: 60% !important;
+    width: 26vh !important;
+    height: 26vh;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -66,7 +67,8 @@
 .mycard:hover .team-img {
     padding-bottom: 5px;
     margin-top: -2%;
-    width: 50% !important;
+    width: 24vh !important;
+    height: 24vh;
 }
 
 /* hover effect on card */

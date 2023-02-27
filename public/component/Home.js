@@ -3,6 +3,7 @@ import "./css/home.css";
 import aisalogo from "../media/img/aisalogo.png";
 import dv from "../media/img/Logo_18.jpeg";
 import bg from "../media/img/bg.webp";
+import dss from "../media/img/dss.png"
 const Home = () => {
     return (
         <div>
@@ -33,11 +34,12 @@ const Home = () => {
                     </div>
                     <div className="carousel-inner" data-bs-interval="1000">
                         <div className="carousel-item active">
+                            <img src={dss} className="d-block w-100" />
+                        </div>
+                        <div className="carousel-item active">
                             <img src={dv} className="d-block w-100" />
                         </div>
-                        <div className="carousel-item" data-bs-interval="2000">
-                            <img src={bg} className="d-block w-100" />
-                        </div>
+                       
                         <div className="carousel-item">
                             <img src={dv} className="d-block w-100" />
                         </div>

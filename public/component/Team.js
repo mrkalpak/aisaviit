@@ -466,60 +466,7 @@ function Team(props) {
                 </div>
               ))}
             </div>{" "}
-            <div className="row">
-              <h1 className="text-center text1">Design Team</h1>{" "}
-              {/* js map function to get card details from content.js */}
-              {design.map((design, i) => (
-                //  cards
-                <div
-                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
-                  key={i}
-                >
-                  {" "}
-                  <div className="card mycard my-4">
-                    {" "}
-                    <div className="card-body me-auto ms-auto">
-                      {" "}
-                      <img
-                        src={design.image}
-                        alt="img"
-                        className="img-fluid team-img rounded-circle mb-2"
-                      />{" "}
-                      <h3 className="text2"> {design.Name}</h3>
-                      <h5>{design.Heads}</h5>{" "}
-                      <div className="d-flex flex-row justify-content-center">
-                        {" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={design.LinkedIn}>
-                            {" "}
-                            <i className="icon fa fa-linkedin-square"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a
-                            href={
-                              "https://www.instagram.com/" + design.Insta_ID
-                            }
-                          >
-                            {" "}
-                            <i className="icon fa fa-instagram"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                        <div className="p-3">
-                          {" "}
-                          <a href={"mailto:" + design.Email}>
-                            {" "}
-                            <i className="icon fa fa-envelope-o"></i>{" "}
-                          </a>{" "}
-                        </div>{" "}
-                      </div>{" "}
-                    </div>{" "}
-                  </div>{" "}
-                </div>
-              ))}
-            </div>{" "}
+           
             <div className="row">
               <h1 className="text-center text1">Content Team</h1>{" "}
               {/* js map function to get card details from content.js */}

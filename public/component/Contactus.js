@@ -54,18 +54,18 @@ const Contactus = () => {
             <div className="phNumbers  me-auto ms-auto">
                 <div className="phone">
                     <img src={phImg}></img>
-                    <a href="tel:+91 9234 567 876">
-                        <div className="phNo">+91 9234 567 876</div>
+                    <a href="tel:+91 7758983297">
+                        <div className="phNo">+91 7758983297</div>
                     </a>
-                    <div className="name"> - ABC XYZ</div>
+                    <div className="name"> - Jayendra Borse (President)</div>
                 </div>
-                <div className="phone">
+                {/* <div className="phone">
                     <img src={phImg}></img>
                     <a href="tel:+91 9234 567 876">
                         <div className="phNo">+91 9234 567 876</div>
                     </a>
                     <div className="name"> - ABC XYZ</div>
-                </div>
+                </div> */}
             </div>
         </div>
     );
