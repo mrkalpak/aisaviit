@@ -252,7 +252,7 @@ const finance = [
 ];
 const faculty = [
   {
-    Heads: "Faculty co-ordinator",
+    Heads: "Assistant HOD and DSS Incharge",
     Name: "Santosh Kumar",
     Email: "",
     Insta_ID: "dssant2021",
@@ -273,11 +273,20 @@ const faculty = [
     Name: "Suwarna Bhagwat",
 
     Email: "",
-    Insta_ID: "",
+    Insta_ID: "suvarnarbhagwat",
     LinkedIn: "https://www.linkedin.com/in/suvarnarbhagwat/",
     image: require("../media/img/team/suvarnamam.jpg"),
   },
+  {
+    Heads: "DSS Incharge",
+    Name: "Geetanjali Yadav",
 
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/suvarnarbhagwat/",
+    image: img1,
+  },
+  
 ];
 // exports;
 export {

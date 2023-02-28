@@ -2,6 +2,7 @@ import React from "react";
 import "./css/home.css";
 import aisalogo from "../media/img/aisalogo.png";
 import dv from "../media/img/Logo_18.jpeg";
+import dss22 from "../media/img/dss22.png"
 
 import dss from "../media/img/dss.png"
 const Home = () => {
@@ -41,7 +42,7 @@ const Home = () => {
                         </div>
                        
                         <div className="carousel-item">
-                            <img src={dv} alt="" className="d-block w-100" />
+                            <img src={dss22} alt="" className="d-block w-100" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#indicators" data-bs-slide="prev">

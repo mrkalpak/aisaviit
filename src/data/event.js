@@ -20,7 +20,7 @@ const data = [
     title: "DSS 2022",
     description:
       "DSS stands for data science symposium and is a peculiar opportunity to grasp more in the field. It is a conference inviting many sought-after veterans and speakers in AI and data science. The event is a wonderful chance to dive deep into the hottest topics and booming topics of automation and analysis.",
-    image: require("../media/img/Logo_18.jpeg"),
+    image: require("../media/img/dss2022.png"),
     href: "/",
   },
 ];
