@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.854d2a6d.css",
-    "main.js": "/static/js/main.1531009e.js",
+    "main.js": "/static/js/main.c58558c4.js",
     "static/media/prasad.jpg": "/static/media/prasad.0ac204aad3cf47df5b9e.jpg",
     "static/media/Adnan.jpg": "/static/media/Adnan.f19cbdf3d644fe271299.jpg",
     "static/media/prajwal.jpg": "/static/media/prajwal.5c3cb5585d10ab66a511.jpg",
@@ -19,23 +19,26 @@
     "static/media/pranav.jpg": "/static/media/pranav.e473742173b78008915a.jpg",
     "static/media/ruchika.jpg": "/static/media/ruchika.7fe5222bc15176e77bb5.jpg",
     "static/media/sahil.png": "/static/media/sahil.50dc5c89068437dd2fa4.png",
+    "static/media/hod.png": "/static/media/hod.68d69d4b69e452702abc.png",
     "static/media/Pratham.jpg": "/static/media/Pratham.8c97f7eb00efed5abd53.jpg",
     "static/media/omsai.jpg": "/static/media/omsai.1eb6192909f28fe9d1c0.jpg",
     "static/media/jayendra.jpg": "/static/media/jayendra.25f1357db9f54b85c852.jpg",
     "static/media/noopur.jpg": "/static/media/noopur.77065f95307114a7a985.jpg",
     "static/media/atharv.jpg": "/static/media/atharv.5e190e6e7f987a1e8648.jpg",
+    "static/media/ass. hod.png": "/static/media/ass. hod.e525208fe38488e40310.png",
     "static/media/shreya.jpg": "/static/media/shreya.774d84efd24ec5890d6e.jpg",
     "static/media/aisalogo.png": "/static/media/aisalogo.116443bbbc6d09c968cc.png",
+    "static/media/suvarnamam.jpg": "/static/media/suvarnamam.0ec922068cb106e6d257.jpg",
     "static/media/aisalg.png": "/static/media/aisalg.70d97ae34d77412518fa.png",
     "static/media/img1.png": "/static/media/img1.e5117e8e0cea57c9a92f.png",
     "static/media/Logo_18.jpeg": "/static/media/Logo_18.1088db3b29c262a57dc1.jpeg",
     "index.html": "/index.html",
     "static/media/telephone.svg": "/static/media/telephone.89d162d2f2e9e3460ce4295cf4505beb.svg",
     "main.854d2a6d.css.map": "/static/css/main.854d2a6d.css.map",
-    "main.1531009e.js.map": "/static/js/main.1531009e.js.map"
+    "main.c58558c4.js.map": "/static/js/main.c58558c4.js.map"
   },
   "entrypoints": [
     "static/css/main.854d2a6d.css",
-    "static/js/main.1531009e.js"
+    "static/js/main.c58558c4.js"
   ]
 }
