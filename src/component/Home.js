@@ -2,7 +2,7 @@ import React from "react";
 import "./css/home.css";
 import aisalogo from "../media/img/aisalogo.png";
 import dv from "../media/img/Logo_18.jpeg";
-import bg from "../media/img/bg.webp";
+
 import dss from "../media/img/dss.png"
 const Home = () => {
     return (
@@ -10,7 +10,7 @@ const Home = () => {
             <div className="container_home container">
                 <div className="row h-100 heroSection">
                     <div className="col bor">
-                        <img src={aisalogo} className="aisalogo " />
+                        <img src={aisalogo} alt="" className="aisalogo " />
                     </div>
                     <div className="col me-auto ms-auto">
                         <h1 className="text-black text">
@@ -34,14 +34,14 @@ const Home = () => {
                     </div>
                     <div className="carousel-inner" data-bs-interval="1000">
                         <div className="carousel-item active">
-                            <img src={dss} className="d-block w-100" />
+                            <img src={dss} alt="" className="d-block w-100" />
                         </div>
                         <div className="carousel-item ">
-                            <img src={dv} className="d-block w-100" />
+                            <img src={dv} alt="" className="d-block w-100" />
                         </div>
                        
                         <div className="carousel-item">
-                            <img src={dv} className="d-block w-100" />
+                            <img src={dv} alt="" className="d-block w-100" />
                         </div>
                     </div>
                     <button className="carousel-control-prev" type="button" data-bs-target="#indicators" data-bs-slide="prev">

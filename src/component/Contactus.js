@@ -53,7 +53,7 @@ const Contactus = () => {
             </form>
             <div className="phNumbers  me-auto ms-auto">
                 <div className="phone">
-                    <img src={phImg}></img>
+                    <img src={phImg} alt=""></img>
                     <a href="tel:+91 7758983297">
                         <div className="phNo">+91 7758983297</div>
                     </a>
