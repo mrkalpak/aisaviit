@@ -137,14 +137,7 @@ const video_Creator = [
     LinkedIn: "https://www.linkedin.com/in/shardulkhandebharad/",
     image: require("../media/img/team/shardul.jpeg"),
   },
-  {
-    Heads: "TY Members",
-    Name: "Onkar Jagtap",
-    Email: "onkar.22010898@viit.ac.in",
-    Insta_ID: "onkarxd",
-    LinkedIn: "https://www.linkedin.com/in/onkarjagtapxd",
-    image: img1,
-  },
+  
 ];
 
 const content = [
@@ -264,7 +257,7 @@ const faculty = [
     Email: "",
     Insta_ID: "dssant2021",
     LinkedIn: "https://www.linkedin.com/in/21025kumar/",
-    image: img1,
+    image: require("../media/img/team/ass. hod.png"),
   },
   {
     Heads: "Head of Department AI & DS",
@@ -273,7 +266,7 @@ const faculty = [
     Email: "",
     Insta_ID: "parikshit_mahalle14",
     LinkedIn: "https://www.linkedin.com/in/parikshit-mahalle-876061116/",
-    image: img1,
+    image: require("../media/img/team/hod.png"),
   },
   {
     Heads: "Faculty co-ordinator",
@@ -282,7 +275,7 @@ const faculty = [
     Email: "",
     Insta_ID: "",
     LinkedIn: "https://www.linkedin.com/in/suvarnarbhagwat/",
-    image: img1,
+    image: require("../media/img/team/suvarnamam.jpg"),
   },
 
 ];

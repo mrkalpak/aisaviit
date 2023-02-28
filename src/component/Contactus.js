@@ -16,7 +16,7 @@ const Contactus = () => {
                 <div className="form-group">
                     <label for="exampleFormControlInput1">Name</label>
                     <input
-                        type="email"
+                        type="text"
                         className="form-control"
                         id="name"
                         placeholder="Please Enter Your Name"
@@ -38,7 +38,7 @@ const Contactus = () => {
                     ></input>
                 </div>
                 <div className="form-group">
-                    <label for="exampleFormControlTextarea1">Example textarea</label>
+                    <label for="exampleFormControlTextarea1">Message</label>
                     <textarea
                         className="form-control"
                         id="exampleFormControlTextarea1"
