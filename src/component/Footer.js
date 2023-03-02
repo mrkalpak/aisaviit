@@ -46,7 +46,7 @@ function Footer() {
               <p className="mal"><i className="fa fa-instagram"></i>  <a className="text-white" href="https://www.instagram.com/aisa_viit/">INSTAGRAM</a>   </p>
               <p className="mal"><i className="fa fa-linkedin-square"></i>    <a className="text-white" href="https://www.linkedin.com/company/aisaviit/">LINKED-IN</a> </p>
               <p className="mal"><i className="fa fa-regular fa-whatsapp"></i>     <a className="text-white" href="./">Whatspp</a></p>
-              <p className="mal"><i class="fa fa fa-home"></i>     OUR DOME (D-313)</p>
+              <p className="mal"><i class="fa fa fa-home"></i>     OUR HOME (D-313)</p>
               <p></p>
               
               

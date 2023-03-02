@@ -2,7 +2,7 @@ import React from "react";
 import "./css/home.css";
 import aisalogo from "../media/img/aisalogo.png";
 import dv from "../media/img/Logo_18.jpeg";
-import dss22 from "../media/img/dss22.png"
+import dss22 from "../media/img/dss2022.png"
 
 import dss from "../media/img/dss.png"
 const Home = () => {

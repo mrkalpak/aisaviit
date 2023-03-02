@@ -9,7 +9,7 @@ const data = [
   },
   {
     key: 2,
-    title: "DataViz",
+    title: "Viz-A-Thon",
     description:
       "The DataViz forum pivots the concept of Data Analysis and Data Visualisation which are the pillars of the world that generates 2.5 quintillion bytes of data daily! The forum leads the vision of projects and the newest ideas leading the same.",
     image: require("../media/img/Logo_18.jpeg"),

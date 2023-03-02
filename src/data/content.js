@@ -28,7 +28,7 @@ const core = [
     Contact_no: "9405298380",
     Year: "TY",
     Division: "A",
-    Insta_ID: "vedant",
+    Insta_ID: "pranavrbagade",
     LinkedIn: "https://in.linkedin.com/in/pranav-bagade",
     image: require("../media/img/team/pranav.jpg"),
   },
@@ -57,7 +57,7 @@ const event = [
     Name: "Atharva Jadhav",
     Email: "atharva.22010121@viit.ac.in",
     Insta_ID: "atharva2436",
-    image: require("../media/img/team/atharv.jpg"),
+    image: require("../media/img/team/atharv.png"),
   },
   {
     Heads: "TY Members",
@@ -98,7 +98,7 @@ const publicity = [
     Name: "Faiz Saiyad",
     Email: "mohdfaiz.22010125@viit.ac.in",
     LinkedIn: "https://www.linkedin.com/in/faiz-saiyad-295250204",
-    image: img1,
+    image: require("../media/img/team/faiz.jpg"),
   },
 ];
 const tech = [
