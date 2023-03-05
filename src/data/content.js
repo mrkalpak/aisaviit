@@ -43,7 +43,7 @@ const core = [
     image: require("../media/img/team/nayan.jpg"),
   },
 ];
-const event = [
+const Human =[
   {
     Heads: "Human Resource Manager",
     Name: "Rahul Choubey",
@@ -52,6 +52,10 @@ const event = [
     LinkedIn: "https://www.linkedin.com/in/choubeyrahul",
     image: require("../media/img/team/rahul.jpg"),
   },
+]
+
+const event = [
+  
   {
     Heads: "Event Management",
     Name: "Atharva Jadhav",
@@ -283,9 +287,45 @@ const faculty = [
 
     Email: "",
     Insta_ID: "",
-    LinkedIn: "https://www.linkedin.com/in/suvarnarbhagwat/",
-    image: img1,
+    LinkedIn: "",
+    image: require("../media/img/team/Gitanjali.JPG"),
   },
+  
+];
+const Guest = [
+  {
+    Heads: "MetaShop",
+    Name: "Mukul Ingle",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/mukul-ingle-181097/",
+    image: require("../media/img/team/mukul_ingle.png"),
+  },
+  {
+    Heads: "Innoplexus",
+    Name: "Gaurav Tripathi",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/tgaurav/",
+    image: require("../media/img/team/gaurav_tripathi.png"),
+  },
+  {
+    Heads: "HumInspAIRe",
+    Name: "Varad Vishwarupe",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/varadvishwarupe/",
+    image: require("../media/img/team/varad_sir.png"),
+  },
+  {
+    Heads: "Cognizant",
+    Name: "Pawan Deshpande",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/pawangdeshpande/",
+    image: require("../media/img/team/pawan_sir.png"),
+  },
+  
   
 ];
 // exports;
@@ -303,4 +343,6 @@ export {
   photography,
   finance,
   faculty,
+  Human,
+  Guest
 };

@@ -5,6 +5,7 @@ import Contactus from "./Contactus";
 import Event from "./Event";
 import Home from "./Home";
 import Team from "./Team";
+import Landing from "./landing";
 import "./css/navbar.css";
 import aisaLogo from "../media/img/aisalogo.png";
 
@@ -59,6 +60,7 @@ const Navbar = () => {
                     <Route path="/event" element={<Event />} />
                     <Route path="/team" element={<Team />} />
                     <Route path="/contactus" element={<Contactus />} />
+                    <Route path="/dss" element={<Landing/>} />
                     <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
             </div>

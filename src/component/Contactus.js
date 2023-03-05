@@ -49,23 +49,23 @@ const Contactus = () => {
                         }}
                     ></textarea>
                 </div>
-                <button className="btn">Submit</button>
+                <button className="btn btn-width">Submit</button>
             </form>
-            <div className="phNumbers  me-auto ms-auto">
+            <div className="phNumbers   me-auto ms-auto">
                 <div className="phone">
                     <img src={phImg} alt=""></img>
-                    <a href="tel:+91 7758983297">
-                        <div className="phNo">+91 7758983297</div>
+                    <a href="tel:+91 95187 78918">
+                        <div className="phNo">+91 95187 78918</div>
                     </a>
-                    <div className="name"> - Jayendra Borse (President)</div>
+                    <div className="name"> - Hemakshi Lohiya</div>
                 </div>
-                {/* <div className="phone">
-                    <img src={phImg}></img>
-                    <a href="tel:+91 9234 567 876">
-                        <div className="phNo">+91 9234 567 876</div>
+                <div className="phone">
+                    <img src={phImg} alt=""></img>
+                    <a href="tel:+91 90285 08288">
+                        <div className="phNo">+91 90285 08288</div>
                     </a>
-                    <div className="name"> - ABC XYZ</div>
-                </div> */}
+                    <div className="name"> - Nayan Chandak</div>
+                </div>
             </div>
         </div>
     );

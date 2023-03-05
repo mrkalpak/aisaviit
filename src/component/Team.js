@@ -13,7 +13,9 @@ import {
   youtube,
   photography,
   finance,
+  
   faculty,
+  Human,
 } from "../data/content";
 
 function Team(props) {
@@ -185,6 +187,58 @@ function Team(props) {
                         <div className="p-3">
                           {" "}
                           <a href={"mailto:" + core.Email}>
+                            {" "}
+                            <i className="icon fa fa-envelope-o"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                      </div>{" "}
+                    </div>{" "}
+                  </div>{" "}
+                </div>
+              ))}
+            </div>{" "}
+            <div className="row">
+              <h1 className="text-center text1">Human Resource Team</h1>{" "}
+              {/* js map function to get card details from content.js */}
+              {Human.map((Human, i) => (
+                //  cards
+                <div
+                  className="col-lg-4 col-md-6 col-sm-12 me-auto ms-auto card-col card-deck  "
+                  key={i}
+                >
+                  {" "}
+                  <div className="card mycard my-4">
+                    {" "}
+                    <div className="card-body me-auto ms-auto">
+                      {" "}
+                      <img
+                        src={Human.image}
+                        alt="img"
+                        className="img-fluid team-img rounded-circle mb-2"
+                      />{" "}
+                      <h3 className="text2"> {Human.Name}</h3>
+                      <h5>{Human.Heads}</h5>{" "}
+                      <div className="d-flex flex-row justify-content-center">
+                        {" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={Human.LinkedIn}>
+                            {" "}
+                            <i className="icon fa fa-linkedin-square"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a
+                            href={"https://www.instagram.com/" + Human.Insta_ID}
+                          >
+                            {" "}
+                            <i className="icon fa fa-instagram"></i>{" "}
+                          </a>{" "}
+                        </div>{" "}
+                        <div className="p-3">
+                          {" "}
+                          <a href={"mailto:" + Human.Email}>
                             {" "}
                             <i className="icon fa fa-envelope-o"></i>{" "}
                           </a>{" "}

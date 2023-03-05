@@ -7,7 +7,7 @@ function Footer() {
       <footer className="text-white content">
         
         <div className="container-fluid pt-3 pb-3 mt-3 ">
-          <div className="row">
+          <div className="row w-100">
             <div className="col-md-2 mx-auto ">
               <img className="aisa_logo" alt="" src={pic} />
             </div>
@@ -15,7 +15,7 @@ function Footer() {
             <div className="col-md-3 my-4 mx-3 text-center">
                <h4 className="font-weight-bold mb-3 ">AISA</h4> 
               <p className="para"> WE AISA, <br/>
-                  Aim to percieve the overall 
+                  Aim to spread Awareness <br/> and Education about AI and DS
               </p>
             </div>
             <div className="col-md-3 my-4 mx-4 text-center">
@@ -45,7 +45,8 @@ function Footer() {
               <h4 className="font-weight-bold mb-3">CONNECT</h4>
               <p className="mal"><i className="fa fa-instagram"></i>  <a className="text-white" href="https://www.instagram.com/aisa_viit/">INSTAGRAM</a>   </p>
               <p className="mal"><i className="fa fa-linkedin-square"></i>    <a className="text-white" href="https://www.linkedin.com/company/aisaviit/">LINKED-IN</a> </p>
-              <p className="mal"><i className="fa fa-regular fa-whatsapp"></i>     <a className="text-white" href="./">Whatspp</a></p>
+              <p className="mal"><i className="fa fa-regular fa-whatsapp"></i>     <a className="text-white" href="https://chat.whatsapp.com/H8kCPNdOF5HBPuMUzSCoWR">Whatspp</a></p>
+              <p className="mal"><i className="fa fa-regular fa-twitter"></i>     <a className="text-white" href="https://twitter.com/aisa_viit">Twitter</a></p>
               <p className="mal"><i class="fa fa fa-home"></i>     OUR HOME (D-313)</p>
               <p></p>
               

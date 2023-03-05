@@ -12,11 +12,6 @@
 }
 
 
-.aisa_logo{
-    width: auto;
-    height: 75%;
-    margin-left: 0;
-}
 
 .mal{
     cursor: pointer;
@@ -47,6 +42,9 @@ hr{
     margin-top: 25px;
     margin-left: 20px;
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+    width: auto;
+    height: 75%;
+    
 }
 .aisa_logo:hover{
     box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.8);
@@ -60,3 +58,20 @@ a:hover{
     color: white;
 }
 
+@media screen and (max-width: 480px) {
+    
+.content{
+    padding-left: 0;
+    background-color: #1486aa;  
+}
+    .aisa_logo{
+        width:200px;
+        background-color: powderblue; 
+        border-radius: 25%;
+        margin-top: 25px;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 90%;
+        box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.4);
+    }
+}
