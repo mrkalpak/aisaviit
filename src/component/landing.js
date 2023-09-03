@@ -1,24 +1,24 @@
-import { core, Guest } from "../data/content";
+import {Guest } from "../data/content";
 import img from "../media/img/aisalogo.png";
-import img1 from "../media/img/aisalogo.png";
+
 import "../component/css/landing.css";
 function landing() {
   return (
     <div>
       <div className="sponsor">
-   
 
-              <img className="d-block me-auto ms-auto w-25 p-5" src={img} alt="" />
 
-            <h1 className="text-center">Presents</h1>
-              <h1 className="text-center text1">DATA SCIENCE SYMPOSIUM</h1>
+        <img className="d-block me-auto ms-auto landing_img p-5" src={img} alt="" />
+
+        <h1 className="text-center">Presents</h1>
+        <h1 className="text-center text1">DATA SCIENCE SYMPOSIUM 2023</h1>
       </div>
       <div className="DSS my-5">
         <h1 className="text-center  text1">What is DSS ?</h1>
         <div className="dss-text mt-5">
 
           <h5 className="text-justify">
-            &nbsp; &nbsp; &nbsp; &nbsp; AiSA VIIT brings to you Data Science Symposium 2023 – DSS ‘23, a 2 Day Event presenting an extensive event on the “AI Revolution”. The AI revolution is still in its early stages, and its full potential is yet to be realized. However, the AI revolution also raises concerns about the impact of AI on society, including job displacement, ethical concerns, and privacy issues. 🔏💼 <br/> <br/>
+            &nbsp; &nbsp; &nbsp; &nbsp; AiSA VIIT brings to you Data Science Symposium 2023 – DSS ‘23, a 2 Day Event presenting an extensive event on the “AI Revolution”. The AI revolution is still in its early stages, and its full potential is yet to be realized. However, the AI revolution also raises concerns about the impact of AI on society, including job displacement, ethical concerns, and privacy issues. 🔏💼 <br /> <br />
 
             &nbsp; &nbsp; &nbsp; &nbsp;It will be filled with talks by influential people based in this field, fun events, and activities that’ll make learning fun. So do consider registering as early bird tickets 🎟 go out for 69/- only, which of only a very few will be sold. ⏳
 
@@ -32,14 +32,14 @@ function landing() {
         <h1 className="text-center">Fees</h1>
 
         <div className="price h1 ">
-          <div className="style-1 w-50  ms-auto me-auto row ">
-            <div className="del col w-25 ms-5 me-0 col-md-6" >
+          <div className="ms-auto me-auto  text-center">
+            {/* <div className="del w-25 ms-auto me-auto " > */}
               <span className="amount">₹89</span>
-            </div>
-            <div className="ins col ms-0  col-md-6">
+            {/* </div> */}
+            {/* <div className="ins col ms-0  col-md-6">
               <span className="amount">₹69</span>
               <sup className="h5">(early bird offer)</sup>
-            </div>
+            </div> */}
 
 
 
@@ -48,12 +48,22 @@ function landing() {
 
 
       </div>
-    <div className="res_btn text-center ms-auto me-auto">
-    <a href="https://learner.vierp.in/choose_event_insider">
-    <button type="button"  className="btn btn-outline-primary btn-lg btn-width">Register Now !!</button>
+      {/* <div className="res_btn text-center ms-auto me-auto">
+        <h4>
+          (For the Viswakarma institutes)
+        </h4>
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe-sw9DMLIY8WIFhKzDg5HFXcK3FzknyC79dEPNFGvcGqgv4w/viewform?usp=sf_link">
+          <button type="button" className="btn btn-primary btn-lg btn-width">Register here !!</button>
 
-    </a>
-    </div>
+        </a> <br /> <br />
+        <h4>
+          (For the Other Colleges)
+        </h4>
+        <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSe-sw9DMLIY8WIFhKzDg5HFXcK3FzknyC79dEPNFGvcGqgv4w/viewform?usp=sf_link">
+          <button type="button" className="btn btn-secondary btn-lg btn-width">Register here !!</button>
+
+        </a>
+      </div> */}
 
       {/* <h1 className="text-center text1 mt-5">Fun Game</h1>
       <div className="dss-text MajorAttraction">
@@ -134,41 +144,30 @@ function landing() {
               <div className="card-wrapper d-flex">
                 <div className="card c1">
                   <div className="image-wrapper">
-                    <img src={img} className="d-block w-100 " alt="..." />
+                    <a href="https://www.newtonschool.co/" target="_blank" alt="">
+                      <img src={require("../media/img/newton_school.png")} className="d-block w-100 " alt="..." />
+
+                    </a>
                   </div>
                 </div>
                 <div className="card c1">
                   <div className="image-wrapper">
-                    <img src={img} className="d-block w-100" alt="..." />
+                    <a href="" target="_blank" alt="">
+                      <img src={require("../media/img/budhani.jpg")} className="d-block w-100 " alt="..." />
+
+                    </a>
                   </div>
                 </div>
                 <div className="card c1">
                   <div className="image-wrapper">
-                    <img src={img} className="d-block w-100" alt="..." />
+                    <a href="https://givemycertificate.com/" target="_blank" alt="">
+                      <img src={require("../media/img/GMC.png")} className="d-block w-100 " alt="..." />
+
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="carousel-item  " >
-              <div className="card-wrapper d-flex">
-                <div className="card c1">
-                  <div className="image-wrapper">
-                    <img src={img1} className="d-block w-100" alt="..." />
-                  </div>
-                </div>
-                <div className="card c1">
-                  <div className="image-wrapper">
-                    <img src={img1} className="d-block " alt="..." />
-                  </div>
-                </div>
-                <div className="card c1">
-                  <div className="image-wrapper">
-                    <img src={img1} className="d-block w-100" alt="..." />
-                  </div>
-                </div>
-              </div>
-            </div>
-            
           </div>
           <button
             className="carousel-control-prev"

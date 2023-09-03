@@ -4,10 +4,47 @@
   /* margin-right: 30px; */
   color: #fff;
 }
-.price{
-    margin-left: 20%;
+.btn-primary{
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
 }
-.del {
+
+.btn-primary:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .btn-primary{
+    padding: 0 2.6rem;
+  }
+}
+
+.btn-secondary{
+  background-color: lightgrey;
+  color: black;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+}
+
+/* .del {
   color: rgba(255,56,56, 0.5);
   text-decoration: none;
   position: relative;
@@ -22,7 +59,7 @@
   bottom: 0;
   left: 0;
   transform: rotate(-10deg);
-}
+} */
 
 
 ins {
@@ -74,6 +111,9 @@ ins {
 }
 .btn-width{
   width: 12% !important;
+}
+.landing_img{
+  width: 25%;
 }
 /* icons */
 .mycard .icon {
@@ -164,7 +204,9 @@ ins {
     left: 0;
     transform: rotate(-10deg);
   }
-  
+  .btn-width{
+    width: 50% !important;
+  }
 
   .row .card {
     margin-left: 0%;
@@ -176,6 +218,9 @@ ins {
   .carousel img{
     
     height: max-content ;
+  }
+  .landing_img{
+    width: 80%;
   }
 }
 

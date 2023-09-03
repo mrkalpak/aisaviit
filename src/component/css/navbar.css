@@ -1,6 +1,10 @@
 .navbarText {
     font-size: 20px;
 }
+.daa-nav{
+    color:   red !important;
+    font-weight: bold;
+}
 .header {
     display: flex;
     justify-content: space-between;

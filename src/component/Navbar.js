@@ -29,6 +29,11 @@ const Navbar = () => {
                                     Home
                                 </Link>
                             </li>
+                            {/* <li className="nav-item  ">
+                                <Link to="/dss" className="daa-nav text-denger nav-link active">
+                                    DSS
+                                </Link>
+                            </li> */}
                             <li className="nav-item">
                                 <Link to="/event" className="nav-link active">
                                     Event{" "}
@@ -61,7 +66,9 @@ const Navbar = () => {
                     <Route path="/team" element={<Team />} />
                     <Route path="/contactus" element={<Contactus />} />
                     <Route path="/dss" element={<Landing/>} />
-                    <Route path="*" element={<Navigate to="/" replace />} />
+                    <Route path="aisa-viit.in/dss" element={<Landing/>} />
+
+                    <Route path="/*" element={<Navigate to="/" replace />} />
                 </Routes>
             </div>
         </div>

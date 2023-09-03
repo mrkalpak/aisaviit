@@ -3,6 +3,7 @@ import "./css/home.css";
 import aisalogo from "../media/img/aisalogo.png";
 import dv from "../media/img/Logo_18.jpeg";
 import dss22 from "../media/img/dss2022.png"
+import { Link, Routes, Route, Navigate } from "react-router-dom";
 
 import dss from "../media/img/dss.png"
 const Home = () => {
@@ -35,7 +36,9 @@ const Home = () => {
                     </div>
                     <div className="carousel-inner" data-bs-interval="1000">
                         <div className="carousel-item active">
-                            <img src={dss} alt="" className="d-block w-100" />
+                        <Link className="nav-link active" to="/dss">
+                            <img src={dss} alt=""  className="d-block w-100" />
+                            </Link>
                         </div>
                         <div className="carousel-item ">
                             <img src={dv} alt="" className="d-block w-100" />

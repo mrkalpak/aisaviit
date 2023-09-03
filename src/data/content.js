@@ -19,7 +19,7 @@ const core = [
     Email: "sahil.22010595@viit.ac.in",
     Insta_ID: "soujanisahil",
     LinkedIn: "https://www.linkedin.com/in/soujanisahil",
-    image: require("../media/img/team/sahil.png"),
+    image: require("../media/img/team/sahil.jpg"),
   },
   {
     Heads: "Secretary",
@@ -150,7 +150,7 @@ const content = [
     Name: "Aditi Nikam",
     Email: "aditi.22120155@viit.ac.in",
     Insta_ID: "_aditi_nikam_",
-    LinkedIn: "www.linkedin.com/in/aditinikam",
+    LinkedIn: "https://www.linkedin.com/in/aditinikam/",
     image: require("../media/img/team/aditi.jpg"),
   },
   {
@@ -294,7 +294,7 @@ const faculty = [
 ];
 const Guest = [
   {
-    Heads: "MetaShop",
+    Heads: "Co-founder at MetaShop",
     Name: "Mukul Ingle",
     Email: "",
     Insta_ID: "",
@@ -302,7 +302,7 @@ const Guest = [
     image: require("../media/img/team/mukul_ingle.png"),
   },
   {
-    Heads: "Innoplexus",
+    Heads: "Co-founder at Innoplexus",
     Name: "Gaurav Tripathi",
     Email: "",
     Insta_ID: "",
@@ -310,7 +310,7 @@ const Guest = [
     image: require("../media/img/team/gaurav_tripathi.png"),
   },
   {
-    Heads: "HumInspAIRe",
+    Heads: "Founder and CEO at HumInspAIRe",
     Name: "Varad Vishwarupe",
     Email: "",
     Insta_ID: "",
@@ -318,13 +318,57 @@ const Guest = [
     image: require("../media/img/team/varad_sir.png"),
   },
   {
-    Heads: "Cognizant",
+    Heads: "Founder of Teemgenie",
+    Name: "Dr Sandeep Deshmukh",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/sandeep-deshmukh/",
+    image: require("../media/img/team/sandeepsir.png"),
+  },
+  
+  {
+    Heads: "Developer support engineer at Salesforce",
+    Name: "Nirup Satpathy",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/nirup-kumar-satpathy-6110b2154/",
+    image: require("../media/img/team/nirup.png"),
+  },
+  {
+    Heads: "CEO Pixaflip technologies",
+    Name: "Saudagar Barde",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://in.linkedin.com/in/ssbarde",
+    image: require("../media/img/team/Saudagar.png"),
+  },
+  {
+    Heads: "Founder of CarIQ",
+    Name: "Ayush Mahodaya",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/ayush-mahodaya-15773491/",
+    image: require("../media/img/team/Ayush.png"),
+  },
+  
+  {
+    Heads: "Founder of Watermelon Gang & YouTuber",
+    Name: "Ali Solanki",
+    Email: "",
+    Insta_ID: "",
+    LinkedIn: "https://www.linkedin.com/in/alisolanki/",
+    image: require("../media/img/team/ali.png"),
+  },
+  
+  {
+    Heads: "AI Practitioner at Cognizant",
     Name: "Pawan Deshpande",
     Email: "",
     Insta_ID: "",
     LinkedIn: "https://www.linkedin.com/in/pawangdeshpande/",
     image: require("../media/img/team/pawan_sir.png"),
   },
+  
   
   
 ];
